@@ -99,7 +99,7 @@ class GreenMonster:
             tab = ttk.Frame(tab_control, width=800, height=600, style="My.TFrame")
             tab_control.add(tab, text=title)
             if "ScanUtil" in title:
-              fn(tab,self, "ROC1")
+              fn(tab,self, "ROC-isb")
             else:
               fn(tab)
         tab_control.grid(row=0, column=0, columnspan=2)
